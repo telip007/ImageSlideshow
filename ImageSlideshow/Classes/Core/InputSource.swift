@@ -21,7 +21,7 @@ import UIKit
 
 /// Input Source to load plain UIImage
 open class ImageSource: NSObject, InputSource {
-    var image: UIImage!
+    public var image: UIImage!
 
     /// Initializes a new Image Source with UIImage
     /// - parameter image: Image to be loaded
